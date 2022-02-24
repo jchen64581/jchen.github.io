@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #37acda;
+		color: #191e20;
 		text-decoration: underline;
 	}
 
@@ -802,6 +802,18 @@ input, select, textarea {
 						}
 
 		}
+
+		/* row1 column1 */
+		.row1 {
+			display: flex;
+		  }
+		  
+		  .column1 {
+			flex: 33.33%;
+			padding: 140px;
+		  }
+
+
 
 		@media screen and (max-width: 1280px) {
 
@@ -1896,7 +1908,7 @@ input, select, textarea {
 
 	ul.social {
 		cursor: default;
-		margin: 0;
+		margin: 2;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -1931,7 +1943,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: rgb(179, 170, 170);
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1959,7 +1971,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #7B68EE;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1971,7 +1983,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #7B68EE;
 				}
 
 				ul.social li a.fa-rss {
@@ -2103,7 +2115,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #444749;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2112,6 +2124,13 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+			.icon.featured:hover {
+				color: #7B68EE
+				}
+			.fa.featured:hover {
+					color: #7B68EE
+					}
+
 
 /* Wrappers */
 
