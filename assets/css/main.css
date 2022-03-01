@@ -2743,5 +2743,20 @@ ul.actions {
 	-webkit-text-fill-color: transparent;
 }
 
-
+/* grad cap */
+.grad_cap{
+	text-decoration: none;
+	font-family: Arial;
+	color: #333;
+  }
+  
+  /*Example 1*/
+  .grad_cap2{
+	color: #ccccff;
+	vertical-align: sub;
+	font-size: 50px;}
+  
+	.grad_cap2::before{
+	font-size: 30px;
+  }
  
